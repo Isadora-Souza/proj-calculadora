@@ -1,0 +1,71 @@
+@charset "URTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Titan+One & family= Work+Sans:ital,wght@0,100;0,200;0,300;0,500;0,700;0,900;1,100; 1.300;1.500;1.700 & display=trocar');
+
+body {
+        background-image: linear-gradient(45deg,#1F2B65, #E3BCCF);
+        height: 100vh;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto ;
+        max-width: 2000px;
+        min-width: 600px;
+        overflow: hidden;
+}
+header {
+    padding: 5%;
+    font-family:  Arial, sans-serif;
+}
+h1 {
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+}
+
+footer {
+    padding: 25%;
+}
+
+
+main {
+    background-color: #1F2B65;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    border-radius: 8px; 
+    width: 180px;
+    height: 250px;
+    color: black;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bt{
+    width: 35px;
+    height: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgba(5, 5, 5, 0.945);
+    border: none;
+    color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+
+.bt:hover{
+    background-color: rgb(184, 177, 177);
+}
+
+#caixa {
+     background-color:#aca4aaa6;
+        width: 150px;
+        height: 25px;
+        margin: 10px;
+        font-size: 25px;
+        color: rgb(252, 243, 243);
+        text-align: right;
+        padding: 5px;
+        overflow: hidden;
+}
+
